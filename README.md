@@ -1,0 +1,4 @@
+
+To run Assignment1.java, the command 'javac Assignment.java' must be used,
+and to run the program, 'java Assignment1' must be used. My approach began
+by creating a class that would extend the Thread class, as I wanted to begin writing the code that every thread would follow. I read all the notes and used the approach of all threads starting at the same point and using a counter to know which the next number to be evaluated is. The way I tested the correctectness of the program was I lowered the max number the threads would go up to, to 10 and then 100, as it is much easier to calculate by hand how many primes are within those ranges, to check if the program works correctly. I then changed the max back to 10^8 and looked up what the correct answers would be, and checked against my program. A far as efficiency, the workload is evenly split among 8 threads, since they all calculate the next available number.
